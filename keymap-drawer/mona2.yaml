@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: Sft+RIGHT SHIFT}
+  - {t: '?', h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
