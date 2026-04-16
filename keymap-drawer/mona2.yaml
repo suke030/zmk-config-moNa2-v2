@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: /, h: Sft+RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
@@ -53,7 +53,7 @@ layers:
   - HOME
   - UP
   - END
-  - '0'
+  - {t: ▽, type: trans}
   - /
   - '4'
   - '5'
@@ -64,7 +64,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
