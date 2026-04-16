@@ -82,7 +82,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 MINUS  &lt 1 SPACE  &lt 2 LS(RCTRL)     &lt 2 ESC       &lt 1 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_right_left>;
         };
 
         layer_1 {
