@@ -16,12 +16,12 @@ layers:
   - D
   - F
   - G
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - H
   - J
   - K
   - L
-  - ':'
+  - ''''
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -39,16 +39,16 @@ layers:
   - LEFT WIN
   - {t: '-', h: '5'}
   - {t: SPACE, h: '1'}
-  - {t: '~', h: '2'}
+  - {t: '=', h: '2'}
   - {t: ESC, h: '2'}
   - {t: ENTER, h: '1'}
   - DEL
   '1':
-  - Sft+;
+  - Sft+'
   - '7'
   - '8'
   - '9'
-  - Sft+'
+  - Sft+;
   - PAGE UP
   - HOME
   - UP
@@ -306,3 +306,7 @@ combos:
   k: '4'
 - p: [11, 12]
   k: TAB
+- p: [19, 20]
+  k: ''
+- p: [9, 8]
+  k: ''
