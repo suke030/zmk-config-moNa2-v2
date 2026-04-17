@@ -97,10 +97,10 @@
 
         layer_1 {
             bindings = <
-&kp LS(SQT)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(SEMICOLON)                    &kp PAGE_UP    &kp HOME  &kp UP    &kp END    &trans
-&kp SLASH    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS                    &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(MINUS)      &trans    &trans  &trans         &trans    &trans    &trans     &kp KP_NUMLOCK
-&trans       &kp NUMBER_0  &kp PERIOD    &trans        &trans             &trans    &trans  &trans                                        &trans
+&kp LS(KP_ASTERISK)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(KP_PLUS)                     &kp PAGE_UP    &kp HOME  &kp UP    &kp END    &trans
+&kp KP_DIVIDE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS                &trans  &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans               &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(KP_EQUAL)  &trans    &trans  &trans         &trans    &trans    &trans     &kp KP_NUMLOCK
+&trans               &kp NUMBER_0  &kp PERIOD    &trans        &trans            &trans    &trans  &trans                                        &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
