@@ -39,16 +39,16 @@ layers:
   - LEFT WIN
   - {t: '-', h: '5'}
   - {t: SPACE, h: '1'}
-  - {t: Sft+RCTRL, h: '2'}
+  - {t: '~', h: '2'}
   - {t: ESC, h: '2'}
   - {t: ENTER, h: '1'}
   - DEL
   '1':
-  - '*'
+  - Sft+;
   - '7'
   - '8'
   - '9'
-  - +
+  - Sft+'
   - PAGE UP
   - HOME
   - UP
@@ -69,7 +69,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
+  - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,16 +98,16 @@ layers:
   - F9
   - F10
   - '!'
-  - '"'
+  - '@'
   - '#'
   - $
   - '%'
-  - \
-  - '&'
-  - ''''
-  - (
-  - )
+  - INT3
   - ^
+  - Sft+7
+  - '*'
+  - (
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,8 +118,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '@'
-  - _
+  - '['
+  - Sft+INT1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
