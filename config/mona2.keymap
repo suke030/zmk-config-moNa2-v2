@@ -35,12 +35,12 @@
         };
 
         Semicolon {
-            bindings = <&none>;
+            bindings = <&kp SEMI>;
             key-positions = <19 20>;
         };
 
         Backspace {
-            bindings = <&none>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <9 8>;
         };
     };
