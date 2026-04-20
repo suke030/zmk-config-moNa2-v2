@@ -38,11 +38,6 @@
             bindings = <&kp SEMI>;
             key-positions = <19 20>;
         };
-
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-        };
     };
 
     macros {
@@ -86,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F        &kp G                            &mo 4           &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 3 LANGUAGE_2    &kp LANGUAGE_1  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT QUESTION
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 MINUS  &lt 1 SPACE  &lt 2 EQUAL         &lt 2 ESC       &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R        &kp T                                              &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F        &kp G                            &kp BACKSPACE     &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 3 LANGUAGE_2    &lt 4 LANGUAGE_1  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT QUESTION
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 MINUS  &lt 1 SPACE  &lt 2 EQUAL         &lt 2 ESC         &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_right_left>;
