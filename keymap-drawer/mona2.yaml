@@ -307,6 +307,6 @@ combos:
 - p: [11, 12]
   k: TAB
 - p: [19, 20]
-  k: ''
+  k: ;
 - p: [9, 8]
-  k: ''
+  k: BACKSPACE
