@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - '4'
+  - BACKSPACE
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - {t: LANGUAGE 2, h: '3'}
-  - LANGUAGE 1
+  - {t: LANGUAGE 1, h: '4'}
   - N
   - M
   - ','
@@ -188,19 +188,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -308,5 +308,3 @@ combos:
   k: TAB
 - p: [19, 20]
   k: ;
-- p: [9, 8]
-  k: BACKSPACE
