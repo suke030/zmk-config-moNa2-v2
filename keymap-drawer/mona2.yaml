@@ -39,7 +39,7 @@ layers:
   - LEFT WIN
   - {t: '-', h: '5'}
   - {t: SPACE, h: '1'}
-  - {t: '=', h: '2'}
+  - {t: Sft+=, h: '2'}
   - {t: ESC, h: '2'}
   - {t: ENTER, h: '1'}
   - DEL
@@ -116,9 +116,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '['
+  - ']'
+  - \
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
