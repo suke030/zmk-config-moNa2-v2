@@ -33,7 +33,7 @@ layers:
   - M
   - ','
   - .
-  - {t: '?', h: RIGHT SHIFT}
+  - {t: Sft+INT1, h: RIGHT SHIFT}
   - LCTRL
   - LEFT ALT
   - LEFT WIN
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
-  - Sft+INT1
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
