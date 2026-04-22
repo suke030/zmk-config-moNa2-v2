@@ -102,7 +102,7 @@ layers:
   - '#'
   - $
   - '%'
-  - INT3
+  - {t: ▽, type: trans}
   - ^
   - Sft+7
   - '*'
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INT3
   - '['
   - ']'
   - \
@@ -308,3 +308,5 @@ combos:
   k: TAB
 - p: [19, 20]
   k: ;
+- p: [31, 32]
+  k: Sft+INT1
